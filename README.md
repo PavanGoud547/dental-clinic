@@ -87,8 +87,5 @@ Bootstrap Icons
 
 Custom CSS
 
-📸 Screenshots
-
-
 🌐 Live Demo
-Live Site : 
+Live Site : https://dental-clinic-puce.vercel.app/
