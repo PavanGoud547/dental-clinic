@@ -1,12 +1,94 @@
-# React + Vite
+🦷 Dental Clinic Website - React Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive, accessible, and user-friendly Dental Clinic website built with ReactJS as part of a Front-End Web Development Internship assignment.
 
-Currently, two official plugins are available:
+## 📌 Project Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built using **ReactJS (Vite)** with **Functional Components** and **Hooks**
+- **React Router DOM** for page navigation
+- **Axios** used for simulating form submissions
+- Styled with **Bootstrap 5**, **Bootstrap Icons**, and **custom CSS**
+- Fully **responsive** design for mobile and desktop
+- Includes reusable components like **Header**, **Footer**, and **FAQ**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🗂️ Pages
+
+- **Home Page**
+  - Hero/Banner Section
+  - Clinic Introduction
+  - Services Overview
+  - Call-to-Action (Book Appointment)
+
+- **About Us Page**
+  - Clinic Background
+  - Practitioner Info
+  - Mission Statement
+
+- **Services Page**
+  - 6+ Dental Services with Title, Image/Icon, and Description
+  - Expandable details 
+
+- **Contact Us Page**
+  - Contact Form with validation (Name, Email, Subject, Message)
+  - Contact Info: Phone, Email, Address
+  - Embedded Google Maps
+  - Simulated form submission via Axios (logs to console)
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+Make sure you have **Node.js** and **npm** installed.
+
+### Installation
+
+1. Clone the repository:
+
+   git clone https://github.com/PavanGoud547/dental-clinic.git
+   cd dental-clinic
+
+2. Install dependencies:
+    
+    npm install
+
+3. Start the development server:
+    
+    npm run dev
+
+4. Open in browser:
+
+    http://localhost:5173
+
+📁 Folder Structure
+
+src/
+├── assets/          # Images and icons
+├── components/      # Reusable components (Header, Footer, FAQ, etc.)
+├── pages/           # Home, About, Services, Contact
+├── services/        # Axios setup
+├── App.jsx
+├── index.css
+├── main.jsx
+└── App.css
+
+🧪 Technologies Used
+ReactJS (Vite)
+
+React Router DOM
+
+Axios
+
+Bootstrap 5
+
+Bootstrap Icons
+
+Custom CSS
+
+📸 Screenshots
+
+
+🌐 Live Demo
+Live Site : 

@@ -8,11 +8,13 @@ import ServicesPage from './pages/ServicesPage.jsx';
 import ContactUs from './pages/ContactUs.jsx';
 import FAQ from './components/FAQ.jsx';
 import Appointment from './pages/Appointment.jsx';
+import ScrollToTop from './components/ScrollToTop.jsx';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <main style={{ paddingTop: '50px' }}>
         <Routes>
